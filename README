@@ -1,0 +1,36 @@
+// first thing you do is initialize npm or yarn with npm/yarn init [-y]
+// next you install the server and that is the index.js
+// in the index.js (entry point): import express
+// instantiate express (const app = express)
+// listen for incoming request using port
+// connect to your db(create config folder and a file dbConnect)
+// I. import mongoose
+// b. use the "connect" to connect to your db
+// c. Console log if db connected successfully or there was an error
+// Export the dbConnect function to the index.js
+// Model
+// Create your models folder
+// create your model file based on your entity
+// import mongoose
+// use schema to structure data
+// use the model method to define your model by passing the model name and the schema define model
+// ("modelName", schema)
+// Export the model to Controller
+// Controllers
+// import the model that are needed
+// use the CRUD handlers
+// export the handlers
+// Routes
+// Import controllers (CRUD) and middleware(s)
+// Match controllers and middlewares to route path
+// Export the Router
+// Index.js
+// import the router
+// use the "app.use" method to match path to router
+
+// install base modules
+// i. Express Backend framework
+// 2. Mongoose for db
+// 3. Bcrypt for hashing password
+// 4. Jsonwebtoken for generating token
+// 5. Multer for upload files
