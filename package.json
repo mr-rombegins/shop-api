@@ -11,6 +11,7 @@
     "bcryptjs": "^2.4.3",
     "express": "^4.17.3",
     "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.3.0"
   }
 }
